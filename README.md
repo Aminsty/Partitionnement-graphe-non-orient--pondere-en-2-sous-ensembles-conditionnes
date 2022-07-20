@@ -1,2 +1,3 @@
 # Partitionnement-graphe-non-orient--pondere-en-2-sous-ensembles-conditionnes
-Partitionnement d'un graphe non orienté pondéré en 2 sous-ensembles conditionnés.
+Partitionnement d'un graphe non orienté pondéré en 2 sous-ensembles A et B tels que A ∪ B = V, |A| = |B| et tels que la somme des poids des arrêtes à un sommet dans A et l'autre dans B soit minimale.
+Le graphe sera donné dans un fichier .txt sous forme de matrice d'adjascence et le résultat est 2 matrices à n/2 lignes remplies à 0 et n/2 lignes remplies par les distances entre les sommets représentants la solution optimale pour le graphe donné. n étant le nombre de sommets du graphe, donné dans la 1ère ligne du fichier donnees.txt .
